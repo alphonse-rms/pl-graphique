@@ -1,0 +1,67 @@
+@font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+   src: url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+        url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+        url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+body {
+	padding: 5px;
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+#legend_area {
+	border: 2px solid rgba(44, 160, 101);
+	text-align: center;
+}
+#legend_container tr td {
+	padding: 0px;
+}
+.zoom_components {
+	cursor: pointer;
+	font-weight: bold;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+	padding: 0px;
+}
+#zoom_container {
+	background-color: rgba(255,255,255,.0.5);
+	padding: 0px;
+	position: fixed;
+	right: 120px;
+	width: 100px;
+	height: 25px;
+}
+#zoom_value {
+	font-weight: bold;
+	height: 20px;
+	padding: 0px;
+	text-align: center;
+}
